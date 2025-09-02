@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Aula1 {
      public static void main (String[] args){
           Scanner scanner = new Scanner(System.in);
-          public int num1, num2, soma;
+          int num1, num2, soma;
 
           System.out.println("Digite o Primeiro número para a soma: ");
           num1 = scanner.nextInt();
