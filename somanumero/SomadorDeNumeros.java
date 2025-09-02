@@ -1,9 +1,7 @@
-#RepositorioConceitosBasicosJava
-
-//Estudos java - Aula 1
+package somanumero;
 
 import java.util.Scanner;
-public class Aula1 {
+public class SomadorDeNumeros {
      public static void main (String[] args){
           Scanner scanner = new Scanner(System.in);
           int num1, num2, soma;
@@ -17,8 +15,8 @@ public class Aula1 {
           soma = num1 + num2;
 
           System.out.println(soma + " é a soma de " + num1 + " e " + num2);
+          scanner.close(); //Necessário fechar o scanner para evitar vazamento de memória
      }
 }
 
 
-//Mudando algo aqui pra ver se vai
