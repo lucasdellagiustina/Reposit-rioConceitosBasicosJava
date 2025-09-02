@@ -7,6 +7,6 @@ public class TiposPrimitivos {
         String nomeAluno = teclado.nextLine();
         float nota = teclado.nextFloat();
         System.out.printf("A nota de %s é %.2f%n", nomeAluno, nota);
-        teclado.close();
+        teclado.close(); // precisa fechar o scanner para evitar vazamento de memória
     }
 }    
