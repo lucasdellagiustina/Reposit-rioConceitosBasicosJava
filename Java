@@ -1,4 +1,4 @@
-# Reposit-rioConceitosBasicosJava
+#RepositorioConceitosBasicosJava
 
 //Estudos java - Aula 1
 
