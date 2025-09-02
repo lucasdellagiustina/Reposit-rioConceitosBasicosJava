@@ -8,9 +8,10 @@ public class TiposPrimitivos {
         String nomeAluno = teclado.nextLine();
         System.out.printf("Digite a nota de %s: ", nomeAluno);
         float nota = teclado.nextFloat();
-        System.out.printf("A nota de %s é %.2f%n", nomeAluno, nota); // Exemplo: Paulo, 8;50
+        System.out.printf("A nota de %s é %.2f%n", nomeAluno, nota); // Exemplo: Paulo, 8.50
         teclado.close(); //Mesma coisa do somador de números, necessário fechar o scanner
     }
 }    
+
 
 
